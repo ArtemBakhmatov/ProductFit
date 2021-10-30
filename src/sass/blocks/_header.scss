@@ -1,0 +1,68 @@
+.header {
+    min-height: 713px;
+    padding: 32px 0 50px 0;
+    background-color: #F8FFFF;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_links {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 610px;
+        }
+        &_link {
+            text-decoration: none;
+            svg {
+                path {
+                    transition: 0.5s all;
+                }
+            }
+            &:hover {
+                svg {
+                    path {
+                        fill: #105154;
+                    }
+                }
+            }
+            &-tel {
+                span {
+                    margin-left: 16px;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: $main_color_1;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+        width: 320px;
+        &_title {
+            margin-top: 0;
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 40px;
+            text-transform: uppercase;
+            color: $main_color_1;
+        }
+        &_descr {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #3C3C3C;
+        }
+    }
+    &__btn {
+        margin-top: 50px;
+        width: 232px;
+        height: 70px;
+    }
+}

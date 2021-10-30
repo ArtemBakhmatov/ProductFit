@@ -1,6 +1,8 @@
 @import "libs/bootstrap-reboot.min";
 @import "libs/fonts";
 
+@import "base/variables";
+
 * {
     font-family: 'Gilroy', sans-serif;
     margin: 0;
@@ -11,3 +13,6 @@
     width: 1140px;
     margin: 0 auto;
 }
+
+@import "blocks/header";
+@import "blocks/buttons";

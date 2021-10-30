@@ -418,4 +418,116 @@ progress {
   width: 1140px;
   margin: 0 auto;
 }
+
+.header {
+  min-height: 713px;
+  padding: 32px 0 50px 0;
+  background-color: #F8FFFF;
+}
+
+.header__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__block_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 610px;
+}
+
+.header__block_link {
+  text-decoration: none;
+}
+
+.header__block_link svg path {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.header__block_link:hover svg path {
+  fill: #105154;
+}
+
+.header__block_link-tel span {
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1E959B;
+}
+
+.header__wrapper {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__left {
+  width: 320px;
+}
+
+.header__left_title {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #1E959B;
+}
+
+.header__left_descr {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #3C3C3C;
+}
+
+.header__btn {
+  margin-top: 50px;
+  width: 232px;
+  height: 70px;
+}
+
+.btn {
+  width: 187px;
+  height: 62px;
+  background-color: #F05670;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.btn:hover {
+  background-color: #105154;
+  -webkit-box-shadow: -2px 2px 4px #F05670;
+          box-shadow: -2px 2px 4px #F05670;
+  color: #F05670;
+}
 /*# sourceMappingURL=style.css.map */
