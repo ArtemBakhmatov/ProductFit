@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        min-height: 620px;
+        &__block {
+            flex-direction: column;
+            &_links {
+                margin-top: 20px;
+            }
+        }
+        &__right {
+            svg {
+                width: 400px;
+                height: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        min-height: 500px;
+        padding: 25px 0 35px 0;
+        &__block {
+            position: relative;
+            &_links {
+                width: 500px;
+            }
+        }
+        &__btn {
+            &-first {
+                position: absolute;
+                top: 140px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 167px;
+                height: 50px;
+            }
+        }
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 120px;
+            height: 345px;
+        }
+        &__left {
+            width: 450px;
+            text-align: center;
+            &_descr {
+                position: relative;
+                z-index: 1;
+                font-weight: bold;
+            }
+        }
+        &__right {
+            position: relative;
+            top: -170px;
+        }
+        &__btn {
+            position: relative;
+            z-index: 1;
+            width: 180px;
+            height: 55px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .header {
+        &__block {
+            &_links {
+                width: 290px;
+            }
+            &_link {
+                &-tel {
+                    span {
+                        position: absolute;
+                        top: 130px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        z-index: 1;
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        &__btn {
+            &-first {
+                top: 170px;
+            }
+        }
+        &__wrapper {
+            margin-top: 150px;
+            height: 300px;
+        }
+        &__left {
+            width: 290px;
+            &_title {
+                font-size: 25px;
+                line-height: 30px;
+            }
+        }
+        &__right {
+            svg {
+                width: 290px;
+                height: 241px;
+            }
+        }
+    }
+}

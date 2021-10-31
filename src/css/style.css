@@ -530,4 +530,121 @@ progress {
           box-shadow: -2px 2px 4px #F05670;
   color: #F05670;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .header {
+    min-height: 620px;
+  }
+  .header__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__block_links {
+    margin-top: 20px;
+  }
+  .header__right svg {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .header {
+    min-height: 500px;
+    padding: 25px 0 35px 0;
+  }
+  .header__block {
+    position: relative;
+  }
+  .header__block_links {
+    width: 500px;
+  }
+  .header__btn-first {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 167px;
+    height: 50px;
+  }
+  .header__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 120px;
+    height: 345px;
+  }
+  .header__left {
+    width: 450px;
+    text-align: center;
+  }
+  .header__left_descr {
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+  }
+  .header__right {
+    position: relative;
+    top: -170px;
+  }
+  .header__btn {
+    position: relative;
+    z-index: 1;
+    width: 180px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .header__block_links {
+    width: 290px;
+  }
+  .header__block_link-tel span {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 1;
+    margin-left: 0;
+  }
+  .header__btn-first {
+    top: 170px;
+  }
+  .header__wrapper {
+    margin-top: 150px;
+    height: 300px;
+  }
+  .header__left {
+    width: 290px;
+  }
+  .header__left_title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .header__right svg {
+    width: 290px;
+    height: 241px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
