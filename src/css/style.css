@@ -531,9 +531,43 @@ progress {
   color: #F05670;
 }
 
+.brands {
+  min-height: 90px;
+  background-color: #1E959B;
+  padding: 18px 0;
+}
+
+.brands__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brands__block img {
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+  }
+  .brands {
+    padding: 0 0 18px 0;
+  }
+  .brands__wrapper {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .brands__logo {
+    margin: 18px 10px 0 10px;
   }
 }
 
