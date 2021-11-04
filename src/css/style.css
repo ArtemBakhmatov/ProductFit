@@ -655,6 +655,82 @@ progress {
           box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
 }
 
+.projects {
+  padding-bottom: 120px;
+  background-color: #F8FFFF;
+}
+
+.projects__title {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1E959B;
+}
+
+.projects__wrapper {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projects__block {
+  text-align: center;
+  margin-top: 35px;
+  padding: 25px 20px;
+  width: 320px;
+  height: 320px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F7F9FD));
+  background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+  -webkit-box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+          box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+  border-radius: 25px;
+}
+
+.projects__block_img img {
+  display: block;
+  margin: 0 auto;
+}
+
+.projects__block_title {
+  margin-top: 19px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #1E959B;
+}
+
+.projects__block_descr {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c3c3c;
+}
+
+.projects__btn {
+  display: block;
+  margin: 45px auto 0 auto;
+  width: 233px;
+  height: 70px;
+  -webkit-box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+          box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+  border-radius: 20px;
+  background-color: white;
+  color: #1E959B;
+  text-transform: uppercase;
+  border: 1px solid #1E959B;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -859,9 +935,6 @@ progress {
   .interview {
     padding: 25px 0;
   }
-  .interview__block:last-child {
-    margin: 20px 0 0 0;
-  }
   .interview__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -871,6 +944,14 @@ progress {
         -ms-flex-align: center;
             align-items: center;
     height: 400px;
+  }
+  .interview__blocks {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .interview__left {
     margin-top: 180px;
