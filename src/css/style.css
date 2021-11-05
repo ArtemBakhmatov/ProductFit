@@ -758,6 +758,18 @@ progress {
     width: 515px;
     height: 419px;
   }
+  .projects {
+    padding-bottom: 80px;
+  }
+  .projects__wrapper {
+    margin-top: 25px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .projects__block {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -804,6 +816,12 @@ progress {
     margin-top: 40px;
     width: 220px;
     height: 60px;
+  }
+  .projects {
+    padding-bottom: 50px;
+  }
+  .projects__wrapper {
+    margin-top: 10px;
   }
 }
 
@@ -895,6 +913,10 @@ progress {
   .interview__right_descr span {
     color: #F05670;
   }
+  .projects__title {
+    font-size: 28px;
+    line-height: 35px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -976,6 +998,14 @@ progress {
   }
   .interview__right_descr span {
     color: #F05670;
+  }
+  .projects {
+    padding: 20px 0 30px 0;
+  }
+  .projects__block {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
